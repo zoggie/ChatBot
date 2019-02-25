@@ -1,0 +1,50 @@
+{
+  "name": "IbWebBot",
+  "padlock": "ueyxlhtGgV8p9rObDVGWHg==!sxZ22dzPBeVZdaMi5IdXl3KdxWvhdBxN7son1DiS0OA3pU56HTDmXRUqxGGlGpn3",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "2c79ae85-ecb1-4623-90ba-88bf6c76ab42",
+      "subscriptionId": "1a46a5f8-deb6-4306-a814-1a04c70ad1c3",
+      "resourceGroup": "IbWebBot",
+      "serviceName": "IbWebBot",
+      "type": "abs",
+      "name": "IbWebBot",
+      "id": "1"
+    },
+    {
+      "connectionString": "/rf7sgK8Ulx1wIruLALNHQ==!bglk67uZ+hgc1i0R9G7Yp7zR8lswJYLDa6FHPaELAsXCDvUBxWAl3XYUE2MVTwTOMfL4qVF2YOmXR5Cul8lD4wZLUzYARrg1aW/c2iE89e1uiCDt+yRN3CR1y0qVgcukIq1lziF9hafbOlpoytT8lHoMJXcS9YpzUz4HAIjGr4KJFtruWLymHDlWqBpFctg8puiNU0+CpnmzXaxfp7nglQ==",
+      "tenantId": "2c79ae85-ecb1-4623-90ba-88bf6c76ab42",
+      "subscriptionId": "1a46a5f8-deb6-4306-a814-1a04c70ad1c3",
+      "resourceGroup": "IbWebBot",
+      "serviceName": "ibwebbotstorage",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "81d669eb-adac-4b0d-baca-796d956cfc7f",
+      "appPassword": "mxXHjb4hv3HnHHpcTuparQ==!8cFQW2YMY3ONCkf8BlbQ2/Kfkz3CC2qDLVkopvcb5WQ=",
+      "endpoint": "https://ibwebbot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "appId": "fa9369e3-e5b6-4ff6-a2ae-ee7e4132f3bb",
+      "authoringKey": "fN7enGLw8Gzx5g3XQ/4dTA==!I/bG2K5ZcG2ICNYbTWRPdmcMbIDXEeYDmE0by5oiBkrko5JkwZqX12c8Wf8ynfrc",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "5"
+    }
+  ]
+}
